@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: #FDF4E3;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 50px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+  }
+  /* kode sarch */
+  .search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    width: 50%;
+    top: 10px;
+    margin: 10px auto;
+    z-index: 999;
+    background-color: white;
+    padding: 10px;
+    border: 4px solid #B59F84;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+    margin-top: 50px;
+  }
+  
+  .search-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    border-color: #B59F84;
+    background-color: #F4EBD0;
+  }
+  
+  .search-box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 0 auto;
+  }
+  
+  .note {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: auto; 
+    min-height: 150px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+    position: relative;    
+  }
+
+  .delete-button {
+  /* Gaya tombol hapus */
+  font-size: 14px; /* Mengubah ukuran font */
+  background-color: #E74C3C; /* Mengubah warna latar belakang */
+  color: white; /* Warna teks */
+  padding: 8px 12px; /* Padding tombol */
+  border: none; /* Menghapus border */
+  border-radius: 5px; /* Membuat sudut tombol terbulat */
+}
+
+.delete-button:hover {
+  background-color: #C0392B; /* Mengubah warna latar belakang saat dihover */
+}
+
+  
+  
+  .note:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    background: #FDF4E3;
+    border: 3px solid rgb(158, 155, 155);
+  }
+  
+  .note h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .note p {
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+
+  /* untuk form */
+
+.content{
+  display: flexbox;
+  width: 50%;
+  height: 350px;
+  margin: 0 auto;
+  background-color: #B59F84;
+  border: 3 solid black;
+  border-radius: 10px;
+  position: relative;
+}
+
+.content h2{
+  text-align: center;
+  margin-top: 2px;
+  position: relative;
+
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+input[type="submit"] {
+  background-color: #749EB2;
+  color: white;
+  padding: 15px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block; 
+  margin: 0 auto; 
+  text-align: center; 
+}
+
+input[type="submit"]:hover {
+  background-color: #749EB2;
+}
+
+
+
+
+ 

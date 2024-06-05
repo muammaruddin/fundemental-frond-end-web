@@ -1,0 +1,5 @@
+import './component/data.js'
+import './component/header.js'
+import './component/tambah.js'
+import './component/search.js'
+import './component/footer.js'

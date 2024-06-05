@@ -1,0 +1,47 @@
+ @media screen and (max-width: 768px) {
+    .container {
+      margin: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  
+    .search-box {
+      width: 80%;
+      top: 50px;
+    }
+
+    .content{
+width: 100%;
+padding: 0px 20px;
+border-radius: none;
+
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+  .container {
+    margin: 20px; 
+  }
+  
+  .search-box {
+    width: 80%;
+  }
+
+  .note {
+    height: auto; 
+    min-height: 120px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 10px; 
+  }
+
+  .search-box {
+    width: 90%; 
+  }
+
+  .note {
+    min-height: 100px; 
+  }
+}
